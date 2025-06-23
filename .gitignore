@@ -1,0 +1,59 @@
+# Archivos y carpetas de IDEs
+.idea/        # IntelliJ IDEA
+*.iml         # Archivos de módulos de IntelliJ
+.vscode/      # Visual Studio Code
+.project      # Eclipse
+.classpath    # Eclipse
+.settings/    # Eclipse
+
+# Apache NetBeans
+nbproject/    # Carpeta de configuración del proyecto NetBeans
+build/        # Carpeta de construcción de NetBeans (ya estaba, pero es bueno recordarlo)
+dist/         # Carpeta de distribución de NetBeans (archivos JAR, etc.)
+*.jar         # Archivos JAR compilados (ya estaba)
+
+# Ignorar carpetas de compilación y dependencias de lenguajes
+# Java
+*.war
+*.ear
+*.class
+target/
+out/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# C/C++
+*.o           # Archivos objeto
+*.exe         # Ejecutables
+*.dll         # Librerías dinámicas
+*.lib         # Librerías estáticas
+*.so          # Librerías compartidas
+a.out         # Ejecutable por defecto de GCC
+bin/
+obj/
+
+# Haskell
+.stack-work/
+dist-newstyle/
+.cabal-sandbox/
+*.hi          # Interfaz de Haskell
+*.o           # Archivos objeto
+*.dyn_o       # Archivos objeto dinámicos
+
+# R
+.Rproj.user/  # Archivos de usuario de RStudio Project
+.Rhistory     # Historial de comandos de R
+.RData        # Espacio de trabajo de R
+*.Rout        # Salida de R
+
+# Archivos del sistema operativo y logs
+.DS_Store     # macOS
+Thumbs.db     # Windows
+*.log
+*.tmp
+tmp/
